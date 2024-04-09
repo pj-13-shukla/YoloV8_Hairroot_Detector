@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+
+
+nc: 1
+names: ['roots']
+
+roboflow:
+  workspace: skyline-meridian
+  project: roots-detection-bdecq
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skyline-meridian/roots-detection-bdecq/dataset/10
